@@ -13,8 +13,8 @@ public class ServletList extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         ArrayList<Cust> Cust = new ArrayList<>();
-        Cust.add(new Cust("Toan","1998/05/06", "Ha Noi", "/WebContent/images/images.png"));
-        Cust.add(new Cust("ToanA","1998/05/06", "Ha Noi", "/WebContent/images/images.png"));
+        Cust.add(new Cust("Toan","1998/05/06", "Ha Noi", "/images/images.png"));
+        Cust.add(new Cust("ToanA","1998/05/06", "Ha Noi", "/images/images.png"));
         Cust.add(new Cust("ToanB","1998/05/06", "Ha Noi", "/images/images.png"));
         Cust.add(new Cust("ToanC","1998/05/06", "Ha Noi", "/images/images.png"));
         request.setAttribute("Cust",Cust);

@@ -23,7 +23,7 @@
             <th>address</th>
             <th>Pic</th>
         </tr>
-        <img src="/images/images.png">
+        <img src="images/images.png">
         </thead>
         <tbody>
         <%
